@@ -1,0 +1,13 @@
+//import from abstracts
+@import "./abstracts/variables";
+@import "./abstracts/mixins";
+@import "./abstracts/functions";
+//import from base
+@import "./base/animations";
+@import "./base/typography";
+//import from component
+@import "./components/button";
+//import from layout
+@import "./layout/header";
+
+
