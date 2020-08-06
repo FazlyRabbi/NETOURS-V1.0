@@ -4,16 +4,19 @@
 @import "./abstracts/functions";
 //import from base
 @import "./base/base";
+@import "./base/utilities";
 @import "./base/typography";
 @import "./base/animations";
-@import "./base/utilities";
 //import from layout
 @import "./layout/header";
 @import "./layout/grid";
 //import from pages 
 @import "./pages/home";
+
 //import from component
 @import "./components/button";
 @import "./components/composition";
 @import "./components/feature-box";
-
+@import "./components/card";
+@import "./components/story";
+@import "./components/bg-video";
