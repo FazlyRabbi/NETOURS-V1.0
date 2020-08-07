@@ -7,6 +7,10 @@
   transition: all 0.2s;
   position: relative;
   font-size: 1.6rem;
+
+  //change for the <button> element
+  border: none;
+  cursor: pointer;
 }
 
 @mixin  clearfix {
