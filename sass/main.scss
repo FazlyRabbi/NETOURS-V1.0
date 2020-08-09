@@ -10,6 +10,8 @@
 //import from layout
 @import "./layout/header";
 @import "./layout/grid";
+@import "./layout/footer";
+@import "./layout/navigation";
 //import from pages 
 @import "./pages/home";
 
@@ -21,3 +23,4 @@
 @import "./components/story";
 @import "./components/bg-video";
 @import "./components/form";
+@import "./components/popup";
