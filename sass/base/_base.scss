@@ -6,7 +6,6 @@ ul {
   padding: 0;
   box-sizing: inherit;
 }
-
 html {
   //This defines what 1rem is
   font-size: 62.5%; //1rem = 10px = 62.5%
@@ -30,4 +29,9 @@ html {
 
 body {
   box-sizing: border-box;
+  padding: 2.5rem;
+
+  @include respond(tab-port) {
+    padding: 0;
+  }
 }

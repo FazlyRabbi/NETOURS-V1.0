@@ -35,17 +35,20 @@
 // 900 - 1200px;      Tablate landscape
 // 1200 - 1800px;    Desktop
 // 1800 - 1920px;     Big Desktop
+
 // $breakpoint argument choices:
 // -phone
 // -tab-port
 // -tab-land
 // -big-desktop`
 
+// ORDER: Base + typography > genaral layout + grid > page layout > component
+
 // 1em =16px;
 
 @mixin respond($breakpoint) {
   @if ($breakpoint == phone) {
-    @media (max-width: 37.5rem) {
+    @media (max-width: 37.5em) {
       //600px
       @content;
     }
